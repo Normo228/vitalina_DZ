@@ -10,7 +10,6 @@ body {
 }   
 header {
     background-color:rgb(104, 53, 29);
-    color: whitesmoke;
     font-family: 'Gunny Rewritten';
 }
 main {
@@ -20,6 +19,7 @@ main {
     margin-top: 2%;
     font-family: 'Gunny Rewritten';
     font-size: 300%;
+    color: black;
 }
 .sortDiv {
     display:flex;
@@ -100,4 +100,5 @@ a {
     font-size: 50%;
     font-family: 'Constantine';
     background-color: #D9C49C;
+    color: black;
 }
