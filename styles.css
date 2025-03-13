@@ -1,0 +1,103 @@
+@import "https://fonts.fontstorage.com/import/gunnyrewritten.css";
+@import "https://fonts.fontstorage.com/import/constantine.css";
+* {
+    margin: 0%;
+}
+body {
+    background-color:#ffcdb2;
+    text-align: center;
+    font-size: 300%;
+}   
+header {
+    background-color:rgb(104, 53, 29);
+    color: whitesmoke;
+    font-family: 'Gunny Rewritten';
+}
+main {
+    font-size: 50%;
+}
+.h {
+    margin-top: 2%;
+    font-family: 'Gunny Rewritten';
+    font-size: 300%;
+}
+.sortDiv {
+    display:flex;
+    width: 100%;      
+    height: auto;    
+    object-fit: cover; 
+}
+.div1 {
+    margin: 1%;
+    border-radius: 15px;
+    background-color:rgb(104, 53, 29);
+    width: 30%;
+    height: auto;
+    color: white;
+}
+.div2 {
+    margin: 1%;
+    border-radius: 15px;
+    background-color:rgb(104, 53, 29);
+    width: 30%;
+    height: auto;
+    color: white;
+}
+.div3 {
+    margin: 1%;
+    border-radius: 15px;
+    background-color:rgb(104, 53, 29);
+    width: 30%;
+    height: auto;
+    color: white;
+}
+.img1 {
+    margin-top: 8%;
+    width: 80%;
+    object-fit: contain;
+}
+.img2 {
+    margin-top: 8%;
+    width: 80%;
+    height: auto;
+    object-fit: contain;
+}
+.img3 {
+    margin-top: 8%;
+    width: 80%;
+    height: auto;
+    object-fit: contain
+}
+.buy {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #A67B56; 
+    border-radius: 5px; 
+    border: 2px solid transparent;
+    position: relative;
+    text-decoration: none; 
+    transition: all 0.3s ease;
+    margin-bottom: 5%;
+}
+.buy:hover {
+    background-color: #D9C49C; 
+    transform: scale(1.05); 
+}
+
+ .buy:active {
+   transform: scale(0.95); 
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+}
+a {
+    text-decoration: none; 
+    color: #403332;
+}
+.pidval {
+    margin-top: 5%;
+    font-size: 50%;
+    font-family: 'Constantine';
+    background-color: #D9C49C;
+}
