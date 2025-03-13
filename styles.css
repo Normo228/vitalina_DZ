@@ -15,6 +15,10 @@ header {
 main {
     font-size: 50%;
 }
+a {
+    text-decoration: none; 
+    color: #403332;
+}
 .h {
     margin-top: 2%;
     font-family: 'Gunny Rewritten';
@@ -90,10 +94,6 @@ main {
  .buy:active {
    transform: scale(0.95); 
    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
-}
-a {
-    text-decoration: none; 
-    color: #403332;
 }
 .pidval {
     margin-top: 5%;
